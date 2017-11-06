@@ -3,6 +3,7 @@ var score;
 var action;
 var timeremaining;
 var correctans;
+var arrAns = [];
 document.getElementById("startreset").onclick = function() {
     if (playing == true) {
         location.reload();
