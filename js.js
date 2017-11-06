@@ -81,7 +81,7 @@ function count(){
 			
 			document.getElementById("startreset").innerHTML="Start Game";
 			show("gameOver");
-			document.getElementById("gameOver").innerHTML="<p> Game Over <p> <p>Your Score is " + score+"</p>" ;
+			document.getElementById("gameOver").innerHTML="<p> Game Over <p> <p>Your Score is </br> " + score+"</p>" ;
 			playing=false;
 		}
 		
